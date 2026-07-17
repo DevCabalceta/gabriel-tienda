@@ -41,5 +41,6 @@ public class Categoria implements Serializable {
     // Sin "cascade" ni "orphanRemoval" para evitar la propagación de operaciones.
     @OneToMany(mappedBy = "categoria")
     private List<Producto> productos;
+    
 }
  
